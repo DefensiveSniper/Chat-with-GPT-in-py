@@ -24,5 +24,5 @@ def read_file(current_model):
                     text.append(shape.text)
         return ' '.join(text)
     else:
-        print("无效的文件名")
+        print("无效的模型名称")
         return ""
